@@ -19,7 +19,7 @@ To Build
 
 ```bash
 ./autogen.sh
-./configure
+./configure --enable-sse2
 make
 make install # optional
 ```
